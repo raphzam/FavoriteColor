@@ -33,7 +33,7 @@ public class HomeController {
     public String questionGenerator(){
         Random random = new Random();
         String question="";
-        int questionPicker = random.nextInt(1)+1;
+        int questionPicker = random.nextInt(1);
 
         if(questionPicker==0){
             question = "What is your favorite color?";
